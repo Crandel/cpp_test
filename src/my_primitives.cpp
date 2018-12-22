@@ -1,7 +1,4 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <fstream>
 #include <my_primitives.h>
 
 using namespace std;
@@ -45,4 +42,12 @@ void my_primitives(void) {
 
   cout << "5 + 4 = " << 5 + 4 << endl; // same for -, *, /
   cout << "5 % 2 = " << 5 % 2 << endl;
+  cout << "2 / 5 = " << 2 / 5 << endl;
+  cout << "float 2 / 5 = " << (float) 2 / 5 << endl;
+  cout << "age++ = " << age++ << endl;
+  cout << "++age = " << ++age << endl;
+  cout << "age-- = " << age-- << endl;
+  cout << "--age = " << --age << endl;
+
+  cout << "-----------------------------------" << endl;
 }
