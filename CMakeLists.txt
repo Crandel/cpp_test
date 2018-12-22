@@ -16,5 +16,6 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++1y -Wall")
 include_directories( ${PROJECT_SOURCE_DIR} ${PROJECT_INCLUDE_DIR} )
 
 # target
-add_executable( test_bin ${PROJECT_SOURCE_DIR}/main.cpp ${PROJECT_SOURCE_DIR}/my_primitives.cpp)
+file(GLOB_RECURSE SRC_FILES ${PROJECT_SOURCE_DIR}/*.cpp)
+add_executable( test_bin ${SRC_FILES})
 
