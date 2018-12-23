@@ -1,7 +1,8 @@
 #include <iostream>
-#include <my_primitives.h>
-#include <my_conds.h>
-#include <my_arrays.h>
+#include <cpp_test/my_primitives.h>
+#include <cpp_test/my_conds.h>
+#include <cpp_test/my_arrays.h>
+#include <cpp_test/my_loops.h>
 
 using namespace std;
 
@@ -22,6 +23,10 @@ int main(int argc, char *argv[]) {
   // bool is_toxicated = false;
   // can_drive(age, last_exam, is_toxicated);
 
-  test_arrays();
+  // test arrays
+  // test_arrays();
+
+  // test loops
+  test_loops();
   return 0;
 }
