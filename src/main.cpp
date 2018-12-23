@@ -3,6 +3,7 @@
 #include <cpp_test/my_conds.h>
 #include <cpp_test/my_arrays.h>
 #include <cpp_test/my_loops.h>
+#include <cpp_test/my_strings.h>
 
 using namespace std;
 
@@ -27,6 +28,9 @@ int main(int argc, char *argv[]) {
   // test_arrays();
 
   // test loops
-  test_loops();
+  // test_loops();
+
+  // tests strings
+  test_strings();
   return 0;
 }
