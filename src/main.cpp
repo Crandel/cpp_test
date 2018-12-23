@@ -1,6 +1,7 @@
 #include <iostream>
-#include "my_primitives.h"
+#include <my_primitives.h>
 #include <my_conds.h>
+#include <my_arrays.h>
 
 using namespace std;
 
@@ -12,12 +13,15 @@ int main(int argc, char *argv[]) {
     }
   }
 
-  unsigned int age = 35;
-  unsigned int last_exam = 3;
-  bool is_toxicated = false;
+  // Examples of primitive types and operations
+  // my_primitives();
 
-  my_primitives();
-  can_drive(age, last_exam, is_toxicated);
+  // Examples of conditions
+  // unsigned int age = 35;
+  // unsigned int last_exam = 3;
+  // bool is_toxicated = false;
+  // can_drive(age, last_exam, is_toxicated);
 
+  test_arrays();
   return 0;
 }
