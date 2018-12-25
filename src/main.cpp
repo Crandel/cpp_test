@@ -1,9 +1,9 @@
 #include <iostream>
-#include <cpp_test/my_primitives.h>
-#include <cpp_test/my_conds.h>
-#include <cpp_test/my_arrays.h>
-#include <cpp_test/my_loops.h>
-#include <cpp_test/my_strings.h>
+#include <cpp_test/primitives.h>
+#include <cpp_test/conds.h>
+#include <cpp_test/containers.h>
+#include <cpp_test/loops.h>
+#include <cpp_test/strings.h>
 
 using namespace std;
 
@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
   }
 
   // Examples of primitive types and operations
-  // my_primitives();
+  // primitives();
 
   // Examples of conditions
   // unsigned int age = 35;

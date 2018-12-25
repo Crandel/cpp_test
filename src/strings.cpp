@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include <cpp_test/my_strings.h>
+#include <cpp_test/strings.h>
 
 using namespace std;
 

@@ -1,9 +1,9 @@
 #include <iostream>
-#include <cpp_test/my_primitives.h>
+#include <cpp_test/primitives.h>
 
 using namespace std;
 
-void my_primitives(void) {
+void primitives(void) {
 
   char myGrade = 'A';
 

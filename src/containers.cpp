@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include <cpp_test/my_arrays.h>
+#include <cpp_test/containers.h>
 #include <ctype.h>
 
 using namespace std;
