@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cpp_test/primitives.h>
 #include <cpp_test/conds.h>
+#include <cpp_test/files.h>
 #include <cpp_test/containers.h>
 #include <cpp_test/loops.h>
 #include <cpp_test/strings.h>
@@ -24,9 +25,10 @@ int main(int argc, char *argv[]) {
     }
   }
 
-  cout << "1 args " << add_nums(2) << endl;
-  cout << "2 args " << add_nums(2, 3) << endl;
-  cout << "3 args " << add_nums(2, 3, 4) << endl;
+  // cout << "1 args " << add_nums(2) << endl;
+  // cout << "2 args " << add_nums(2, 3) << endl;
+  // cout << "3 args " << add_nums(2, 3, 4) << endl;
+
   // Examples of primitive types and operations
   // primitives();
 
@@ -46,5 +48,9 @@ int main(int argc, char *argv[]) {
 
   // tests strings
   //test_strings();
+
+  // test file open
+  int result = test_files("test_abc.txt");
+  cout << result << endl;
   return 0;
 }
