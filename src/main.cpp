@@ -7,6 +7,15 @@
 
 using namespace std;
 
+int add_nums(int first, int second = 0){
+  return first + second;
+}
+
+int add_nums(int first, int second, int third){
+  return first + second + third;
+}
+
+
 int main(int argc, char *argv[]) {
   if (argc > 1) {
     cout << "You use " << argc - 1 << " arguments" << endl;
@@ -15,6 +24,9 @@ int main(int argc, char *argv[]) {
     }
   }
 
+  cout << "1 args " << add_nums(2) << endl;
+  cout << "2 args " << add_nums(2, 3) << endl;
+  cout << "3 args " << add_nums(2, 3, 4) << endl;
   // Examples of primitive types and operations
   // primitives();
 
@@ -26,11 +38,13 @@ int main(int argc, char *argv[]) {
 
   // test arrays
   // test_arrays();
+  // test vectors
+  //test_vectors();
 
   // test loops
   // test_loops();
 
   // tests strings
-  test_strings();
+  //test_strings();
   return 0;
 }

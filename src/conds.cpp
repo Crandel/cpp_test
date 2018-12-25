@@ -5,7 +5,7 @@
 
 using namespace std;
 
-void can_drive(unsigned int age, unsigned int last_exam, bool is_toxicated){
+void can_drive(unsigned int age, unsigned int last_exam, bool is_toxicated = false){
   if ((age >= 0) && (age < MIN_DRIVE_AGE)) {
     cout << "You are to young to drive" << endl;
   } else if (is_toxicated) {
