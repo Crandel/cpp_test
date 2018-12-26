@@ -51,3 +51,17 @@ void primitives(void) {
 
   cout << "-----------------------------------" << endl;
 }
+
+void exception_test(int val){
+  try {
+    if (val != 0){
+      cout << "2 divade to val is " << 2/val << endl;
+    } else throw("val is equal to zero, please change val");
+  } catch(const char* msg) {
+    cout << "Exception with message '"
+         << msg
+         << "' and val "
+         << val
+         << endl;
+  }
+}

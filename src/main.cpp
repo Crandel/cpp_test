@@ -5,6 +5,7 @@
 #include <cpp_test/containers.h>
 #include <cpp_test/loops.h>
 #include <cpp_test/strings.h>
+#include <cpp_test/pointers.h>
 
 using namespace std;
 
@@ -50,7 +51,15 @@ int main(int argc, char *argv[]) {
   //test_strings();
 
   // test file open
-  int result = test_files("test_abc.txt");
-  cout << result << endl;
+  // int result = test_files("test_abc.txt");
+  // cout << result << endl;
+
+  // test exceptions
+  // exception_test(0);
+  // exception_test(3);
+  int age = 30;
+  cout << "Original age " << age << endl;
+  pointers_test(&age);
+  cout << "Changed age " << age << endl;
   return 0;
 }
