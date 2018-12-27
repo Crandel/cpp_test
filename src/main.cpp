@@ -1,11 +1,13 @@
 #include <iostream>
-#include <cpp_test/primitives.h>
+
+#include <cpp_test/classes.h>
 #include <cpp_test/conds.h>
-#include <cpp_test/files.h>
 #include <cpp_test/containers.h>
+#include <cpp_test/files.h>
 #include <cpp_test/loops.h>
-#include <cpp_test/strings.h>
 #include <cpp_test/pointers.h>
+#include <cpp_test/primitives.h>
+#include <cpp_test/strings.h>
 
 using namespace std;
 
@@ -57,9 +59,14 @@ int main(int argc, char *argv[]) {
   // test exceptions
   // exception_test(0);
   // exception_test(3);
-  int age = 30;
-  cout << "Original age " << age << endl;
-  pointers_test(&age);
-  cout << "Changed age " << age << endl;
+
+  // test pointers
+  // int age = 30;
+  // cout << "Original age " << age << endl;
+  // pointers_test(&age);
+  // cout << "Changed age " << age << endl;
+
+  // test classes
+  classes_test();
   return 0;
 }
