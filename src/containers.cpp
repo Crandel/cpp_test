@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include <cpp_test/containers.h>
+#include <cpp_test/containers.hpp>
 #include <ctype.h>
 
 using namespace std;

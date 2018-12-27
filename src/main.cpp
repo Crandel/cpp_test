@@ -1,13 +1,13 @@
 #include <iostream>
 
-#include <cpp_test/classes.h>
-#include <cpp_test/conds.h>
-#include <cpp_test/containers.h>
-#include <cpp_test/files.h>
-#include <cpp_test/loops.h>
-#include <cpp_test/pointers.h>
-#include <cpp_test/primitives.h>
-#include <cpp_test/strings.h>
+#include <cpp_test/classes.hpp>
+#include <cpp_test/conds.hpp>
+#include <cpp_test/containers.hpp>
+#include <cpp_test/files.hpp>
+#include <cpp_test/loops.hpp>
+#include <cpp_test/pointers.hpp>
+#include <cpp_test/primitives.hpp>
+#include <cpp_test/strings.hpp>
 
 using namespace std;
 

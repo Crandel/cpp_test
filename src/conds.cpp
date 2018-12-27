@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cpp_test/conds.h>
+#include <cpp_test/conds.hpp>
 #define MIN_DRIVE_AGE 16
 #define YEARS_FROM_LAST_EXAM 5
 

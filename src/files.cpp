@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 
-#include <cpp_test/files.h>
+#include <cpp_test/files.hpp>
 
 using namespace std;
 

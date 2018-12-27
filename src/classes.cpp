@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-#include <cpp_test/classes.h>
+#include <cpp_test/classes.hpp>
 
 using namespace std;
 

@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include <cpp_test/loops.h>
+#include <cpp_test/loops.hpp>
 
 using namespace std;
 

@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cpp_test/pointers.h>
+#include <cpp_test/pointers.hpp>
 
 using namespace std;
 

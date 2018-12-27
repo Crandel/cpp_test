@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cpp_test/primitives.h>
+#include <cpp_test/primitives.hpp>
 
 using namespace std;
 
